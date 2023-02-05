@@ -7,7 +7,7 @@ describe('isIsogram', () => {
     expect(isIsogram).toBeInstanceOf(Function);
   });
 
-  it(`should be declared`, () => {
+  it(`should return boolean`, () => {
     const result = isIsogram('');
     expect(typeof result === 'boolean')
       .toBeTruthy();
